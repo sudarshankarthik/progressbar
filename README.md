@@ -1,8 +1,26 @@
-# React + Vite
+# README
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project features a dynamic progress bar that tracks the completion of the year with a fluid, glowing animation. It is fully responsive and adapts to different screen sizes for a smooth, engaging experience.
 
-Currently, two official plugins are available:
+## How to Run
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Clone this repository to your local machine:
+ ```bash
+   git clone <repository-url>
+```
+
+2. Navigate to the project directory:
+ ```bash
+   cd <project-directory>
+```
+3. Install the required dependencies using npm:
+ ```bash
+   npm install
+```
+4. Start the development server:
+ ```bash
+   npm run dev
+```
+5. Open your browser and go to `http://localhost:3000` to see the progress bar in action!
+
+Big thanks to ChatGPT for assisting me in bringing this creative idea to life! 😄
