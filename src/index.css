@@ -1,32 +1,28 @@
 :root {
-  /* Background Colors */
-  --primary-background: #02111B;   /* Deep blueish background for the app */
-  --container-background: #0B1D1D; /* Darker background for containers */
-
-  /* Text Colors */
-  --primary-text: #f6f0ed;         /* Soft off-white color for text */
-
-  /* Primary and Secondary Themes */
-  --primary-theme: #85CB33;        /* Fresh green for primary actions */
-  --secondary-theme: #B64C17;      /* Earthy brown-orange for secondary actions */
-
-  /* Accent Colors (Additional shades) */
-  --accent-light: #4C9B2F;         /* Lighter shade of primary theme for accents */
-  --accent-dark: #5B3F1E;          /* Darker shade of secondary theme for depth */
-  --neutral-light: #A6A6A6;        /* Light gray for subtle text or borders */
-  --neutral-dark: #333333;         /* Dark gray for deeper text or elements */
-
-  /* Highlight and Interactive States */
-  --highlight: #FFB400;            /* Bright yellow for highlights or attention-grabbing elements */
-  --hover: #6F8E3C;                /* Slightly darker green for hover states */
-  --disabled: #8D8D8D;             /* Disabled state gray */
+  /* Dark Mode Defaults */
+  --primary-background: #02111b;
+  --container-background: #0b1d1d;
+  --primary-text: #f6f0ed;
+  --primary-theme: #85cb33;
+  --secondary-theme: #b64c17;
+  --accent-light: #4c9b2f;
+  --accent-dark: #5b3f1e;
+  --neutral-light: #a6a6a6;
+  --neutral-dark: #333333;
+  --highlight: #ffb400;
+  --hover: #6f8e3c;
+  --disabled: #8d8d8d;
 }
-
-
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
 
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--primary-background);
+  color: var(--primary-text);
+  line-height: 1.6;
 }
