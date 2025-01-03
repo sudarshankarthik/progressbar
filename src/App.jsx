@@ -16,13 +16,15 @@ function App() {
   const updateTheme = (isDark) => {
     const root = document.documentElement;
     if (isDark) {
-      root.style.setProperty('--primary-background', '#02111B');
-      root.style.setProperty('--container-background', '#0B1D1D');
-      root.style.setProperty('--primary-text', '#F6F0ED');
+      root.style.setProperty('--primary-background', 'var(--primary-background-dark)');
+      root.style.setProperty('--container-background', 'var(--container-background-dark)');
+      root.style.setProperty('--primary-text', 'var(--primary-text-dark)');
+      root.style.setProperty('--primary-theme', 'var(--primary-theme-dark)');
     } else {
-      root.style.setProperty('--primary-background', '#FFFFFF');
-      root.style.setProperty('--container-background', '#F0F0F0');
-      root.style.setProperty('--primary-text', '#02111B');
+      root.style.setProperty('--primary-background', 'var(--primary-background-light)');
+      root.style.setProperty('--container-background', 'var(--container-background-light)');
+      root.style.setProperty('--primary-text', 'var(--primary-text-light)');
+      root.style.setProperty('--primary-theme', 'var(--primary-theme-light)');
     }
   };
 

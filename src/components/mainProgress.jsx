@@ -12,7 +12,6 @@ const MainProgress = ({ currentValue, maxValue }) => {
         aria-label={`Progress: ${progressPercentage}%`}
       />
       <p style={{ marginTop: '10px', color: 'var(--primary-text)' }}>
-        {progressPercentage}% Complete
       </p>
     </div>
   );

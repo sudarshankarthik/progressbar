@@ -1,17 +1,23 @@
 :root {
   /* Dark Mode Defaults */
-  --primary-background: #02111b;
-  --container-background: #0b1d1d;
-  --primary-text: #f6f0ed;
-  --primary-theme: #85cb33;
-  --secondary-theme: #b64c17;
-  --accent-light: #4c9b2f;
-  --accent-dark: #5b3f1e;
-  --neutral-light: #a6a6a6;
-  --neutral-dark: #333333;
-  --highlight: #ffb400;
-  --hover: #6f8e3c;
-  --disabled: #8d8d8d;
+  --primary-background-dark: #02111b;
+  --container-background-dark: #0b1d1d;
+  --primary-text-dark: #f6f0ed;
+  --primary-theme-dark: #85cb33;
+
+  /* Light Mode Defaults */
+  --primary-background-light: #ffffff;
+  --container-background-light: #f0f0f0;
+  --primary-text-light: #02111b;
+  --primary-theme-light: #85cb33;
+}
+
+/* Default to dark mode */
+:root {
+  --primary-background: var(--primary-background-dark);
+  --container-background: var(--container-background-dark);
+  --primary-text: var(--primary-text-dark);
+  --primary-theme: var(--primary-theme-dark);
 }
 
 * {
